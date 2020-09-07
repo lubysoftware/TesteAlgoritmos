@@ -1,5 +1,5 @@
 Escolha quantas questões deseja responder (mínimo 3).
-Crie um arquivo javascript com as funçoes e o código chamando cada uma das funções.
+Crie um arquivo na linguagem que você estiver sendo avaliado com as funçoes e o código chamando cada uma das funções.
 Acima de cada função, insira um comentário no código mencionando qual a questão respondida.
 
 **Questões**
