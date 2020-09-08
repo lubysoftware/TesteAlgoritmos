@@ -1,4 +1,4 @@
-Escolha quantas questões deseja responder (mínimo 3).
+Escolha quais questões deseja responder (escolha no mínimo 3).
 Crie um arquivo na linguagem que você estiver sendo avaliado com as funçoes e o código chamando cada uma das funções.
 Acima de cada função, insira um comentário no código mencionando qual a questão respondida.
 
@@ -20,6 +20,8 @@ var dataset = [193,123, 44, 9, 44, 801, 1800, 44, 98, 801, 999, 1780]
 Considere que são dois quadrados, e você poderá acessar as coordenadas dentro de cada objeto.
 objeto1 = {x1:1, y1:1, x2:2, y2:2}
 objeto2 = {x1:10, y1:10, x2:11, y2:11}
-A sua função deve receber os dois objetos como parametros e comparar quando alguma das coordendas dos objetos se conflitam. 
+A sua função deve receber os dois objetos como parametros e comparar quando alguma das coordendas dos objetos se conflitam.
+
+ps: Esses exercícios são de senso comum da comunidade desenvolvimento, utilize o melhor padrão para implementação, criando uma semântica factível.
 
 
