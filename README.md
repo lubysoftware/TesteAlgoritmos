@@ -16,7 +16,7 @@ Entrada do método ([1,2,3,4]), Resultado do método: [4,3,2,1]
 Entrada do método ([1,2,'', undefined]), Resultado do método: [1,2]
 
 *4)* Implemente um método que a partir de um array de arrays, converta em array de objetos.<br>
-Entrada do método ([[c,2],[d,4]]), Resultado do métdodo: {c:2, d:4}
+Entrada do método ([["c",2],["d",4]]), Resultado do métdodo: {c:2, d:4}
 
 *5)* Implemente um método que retorne um array, sem os itens passados por parâmetro depois do array de entrada.
 Entrada do método ([5,4,3,2,5], 5,3), Resultado do método: [4,2]
