@@ -65,3 +65,13 @@ const valueUnique = (array) => {
     return newArray
 }
 valueUnique([1, 2, 3, 3, 2, 4, 5, 4, 7, 3])
+
+// 7) RESPOSTAS
+const isEqual = (array1, array2) => {
+    if (array1 === array2) {
+        return true
+    } else {
+        return false
+    }
+}
+isEqual()
