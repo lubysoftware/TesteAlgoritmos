@@ -97,3 +97,12 @@ const dividing = (array, number) => {
     return newArray
 }
 dividing([1, 2, 3, 4, 5], 2)
+
+// 10) RESPOSTA
+const equalNumber = (array1, array2) => {
+    const newArray = array1.filter((item) => {
+        array2.includes(item)
+    })
+    return newArray
+}
+equalNumber([6, 8], [8, 9])
