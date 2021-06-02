@@ -34,3 +34,10 @@ function limpaArray(array) {
     return data
 }
 limpaArray([1, 2, '', undefined], "Olá")
+
+// 4) RESPOSTA
+const transformObject = (array) => {
+    const array2 = Object.fromEntries(array)
+    return array2
+}
+transformObject([["c", 2], ["d", 4]])
