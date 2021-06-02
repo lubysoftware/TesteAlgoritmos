@@ -21,3 +21,16 @@ const inverteArray = (array) => {
     return data
 }
 inverteArray([1, 2, 3, 4])
+
+//3) RESPOSTA
+
+function limpaArray(array) {
+    let data = []
+    for (i = 0; i < array.length; i++) {
+        if (typeof (array[i]) === "number" && array[i] > 0 || typeof (array[i]) === "string" && array[i].length > 0) {
+            data.push(array[i])
+        }
+    }
+    return data
+}
+limpaArray([1, 2, '', undefined], "Olá")
