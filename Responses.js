@@ -75,3 +75,13 @@ const isEqual = (array1, array2) => {
     }
 }
 isEqual()
+
+// 8) RESPOSTA
+const uniqueArray = (array) => {
+    let newArray = []
+    newArray = array.map((number) => {
+        newArray.push(number)
+    })
+    return newArray
+}
+uniqueArray([1, 2, [3], [4, 5]])
