@@ -53,3 +53,15 @@ const removeItems = (array, item1, item2) => {
     return newArray
 }
 removeItems([5, 4, 3, 2, 5], 5, 3)
+
+// 6) RESPOSTA
+const valueUnique = (array) => {
+    let newArray = []
+    newArray = array.filter((number) => {
+        if (newArray.indexOf(number) === -1) {
+            return newArray.push(number)
+        }
+    })
+    return newArray
+}
+valueUnique([1, 2, 3, 3, 2, 4, 5, 4, 7, 3])
