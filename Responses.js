@@ -1,11 +1,23 @@
 // 1) RESPOSTA
 
-function newArray(quantidade, item){
+function newArray(quantidade, item) {
     let data = []
-        for(i = 0; i < quantidade; i++){
-    data.push(item)
+    for (i = 0; i < quantidade; i++) {
+        data.push(item)
     }
-     return data
+    return data
+}
+
+newArray(3, "a")
+
+
+//2) RESPOSTA
+const inverteArray = (array) => {
+
+    let data = []
+    for (i = array.length - 1; i >= 0; i--) {
+        data.push(array[i])
     }
-    
-    newArray(3, "a")
+    return data
+}
+inverteArray([1, 2, 3, 4])
