@@ -35,9 +35,21 @@ function limpaArray(array) {
 }
 limpaArray([1, 2, '', undefined], "Olá")
 
-// 4) RESPOSTA
+//4) RESPOSTA
 const transformObject = (array) => {
     const array2 = Object.fromEntries(array)
     return array2
 }
 transformObject([["c", 2], ["d", 4]])
+
+//5) RESPOSTA
+
+const removeItems = (array, item1, item2) => {
+    const newArray = array.filter((item) => {
+        if (item !== item1 && item !== item2) {
+            return item
+        }
+    })
+    return newArray
+}
+removeItems([5, 4, 3, 2, 5], 5, 3)
