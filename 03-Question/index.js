@@ -3,12 +3,7 @@ Entrada do método ([1,2,'', undefined]), Resultado do método: [1,2] */
 
 const clearArray = (array) => {
     if(!Array.isArray(array)) return 'O parametro não é um array';
-    const newArray = [];
-    for (let i = 0; i < array.length; i++) {
-        if(array[i] !== false && array[i] !== undefined && array[i] !== '' && array[i] !== 0 && array[i] !== null) {
-            newArray.push(array[i]);
-        }
-    }
+    const newArray = array.filter(item => !!item);
     return newArray;
 }
 
